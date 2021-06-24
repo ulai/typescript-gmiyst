@@ -2,6 +2,7 @@ import * as Phaser from 'phaser';
 
 new Phaser.Game({
   scene: {
+    preload,
     create
   },
   parent: '#app',
@@ -10,6 +11,10 @@ new Phaser.Game({
     behindCanvas: false
   }
 });
+
+function preload() {
+  this.load.image('logo', 'assets/logo.png');
+}
 
 function create(this: Phaser.Scene) {
   /*
