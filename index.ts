@@ -27,7 +27,7 @@ function create(this: Phaser.Scene) {
             image.setTexture('new-image');
           });
       });
-      reader.readAsDataURL(file);
+      reader.readAsDataURL(file); 
     });
     */
   this.add.rectangle(10, 10, 20, 20, 0xaabbcc);
