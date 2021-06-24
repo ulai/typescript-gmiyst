@@ -13,7 +13,7 @@ new Phaser.Game({
 });
 
 function preload() {
-  this.load.image('logo', 'assets/logo.png');
+  this.load.image('logo', 'test.png');
 }
 
 function create(this: Phaser.Scene) {
